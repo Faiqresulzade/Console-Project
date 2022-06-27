@@ -26,7 +26,7 @@ namespace Console_Project
             Console.ForegroundColor = color;
             foreach (var item in text)
             {
-                Thread.Sleep(200);
+                Thread.Sleep(100);
                 Console.Write(item);
                 
             }

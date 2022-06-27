@@ -16,16 +16,22 @@ namespace Console_Project
         public int Salary { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
-        private int _id = 0;
+        public Gender Genderr { get; set;}
+        private static int _id;
         public Employe()
         {
-            _id++;
-            _id = Id;
+            Id=++_id;
         }
     }
     enum Roletypee
     { 
         ADMIN,
         STAF
+    }
+    enum Gender
+    {
+        MAN,
+        WOMAN
+
     }
 }

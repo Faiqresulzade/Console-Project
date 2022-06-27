@@ -20,11 +20,10 @@ namespace Console_Project
         public int Count { get; set; }
         public int PurchasePrice { get; set; }
         public int SalePrice { get; set; }
-        private int _id = 0;
+        private static int _id;
         public Drug()
         {
-            _id++;
-            _id = Id;
+            Id=++_id;
         }
     }
     enum DrugType
