@@ -16,6 +16,7 @@ namespace Console_Project
         public int Salary { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
+        public Gender Genderr { get; set;}
         private static int _id;
         public Employe()
         {
@@ -26,5 +27,11 @@ namespace Console_Project
     { 
         ADMIN,
         STAF
+    }
+    enum Gender
+    {
+        MAN,
+        WOMAN
+
     }
 }
