@@ -47,8 +47,8 @@ namespace Console_Project
                         switch (adminpanel)
                         {
                             case "1":
-                                case1:
                             #region AdminPanel
+                            case1:
                                 Consolee.WriteLine("1.ishchi elave et", ConsoleColor.DarkMagenta);
                                 Consolee.WriteLine("2.Derman elave et" , ConsoleColor.DarkMagenta);
                                 Consolee.WriteLine("3.Derman sil", ConsoleColor.DarkMagenta);
